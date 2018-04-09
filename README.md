@@ -10,3 +10,6 @@ This branch holds the code for getting posts from WordPress installation.
 
 This branch holds the code for authentication of logging in and out using the [jso.js](https://github.com/andreassolberg/jso).
 
+## Branch post-endpoint
+
+This branch holds the code for sending the POST request and creating a post.
