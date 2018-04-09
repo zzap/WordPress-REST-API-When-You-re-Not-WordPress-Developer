@@ -13,3 +13,7 @@ This branch holds the code for authentication of logging in and out using the [j
 ## Branch post-endpoint
 
 This branch holds the code for sending the POST request and creating a post.
+
+## License
+
+The MIT License (MIT)
