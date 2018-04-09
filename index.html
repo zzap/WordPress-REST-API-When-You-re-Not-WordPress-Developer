@@ -19,6 +19,24 @@
 		<button class="button login" id="user-action">Log in</button>
 	</header>
 
+	<div id="new-post-form" class="site-content site-content-new">
+		<h2>Create New Post</h2>
+		<form id="new-post" method="POST">
+			<p>
+				<label for="post-title">Post title</label>
+				<input id="post-title" type="text" name="post-title" required />
+			</p>
+
+			<p>
+				<label for="post-content">Post content</label>
+				<textarea id="post-content" name="post-content" rows="8" cols="50" required></textarea>
+			</p>
+			<p>
+				<input type="submit" id="create-new-post" value="Create" />
+			</p>
+		</form>
+	</div>
+
 	<main id="content" class="site-content site-content-list" role="main">
 		<ul class="entries-list">
 			<li class="entry">
@@ -48,5 +66,7 @@
 
 	<script src="js/assets/jso-2.0.1/build/jso.js"></script>
 	<script src="js/jso.oauth.js"></script>
+
+	<script src="js/create.post.js"></script>
 </body>
 </html>
