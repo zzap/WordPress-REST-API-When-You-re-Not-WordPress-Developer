@@ -1,0 +1,168 @@
+/* Typography */
+body {
+	font-size: 17px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Limelight', cursive;
+}
+
+a {
+	color: #8e44ad;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+.site-name {
+	font-family: 'Limelight', cursive;
+	font-size: 28px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.site-title p,
+.site-footer p,
+.entry-meta {
+	text-transform: uppercase;
+	color: #666;
+	font-size: 12px;
+}
+
+/* Accessibility */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	clip: auto !important;
+	display: block;
+	height: auto;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Layout */
+.site-header,
+.site-content,
+.site-footer {
+ 	width: 80%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0;
+}
+
+.site-header {
+	border-bottom: 1px solid #dedede;
+	text-align: center;
+}
+
+.home .site-content ul {
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.site-content-new {
+	text-align: center;
+}
+
+.site-footer {
+	text-align: center;
+	border-top: 1px solid #dedede;
+}
+
+/* Entry */
+.entry-title {
+	font-size: 32px;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.entry-title a:hover {
+	text-decoration: underline;
+}
+
+.entry-image img {
+	width: 100%;
+	height: auto;
+}
+
+/* List entries */
+li.entry {
+	margin-bottom: 30px;
+}
+
+/* Logged-in-out */
+button,
+.button,
+input[type="submit"] {
+	border: 0 none;
+	background-color: #8e44ad;
+	color: #fff;
+	display: inline-block;
+	padding: 0 60px;
+	cursor: pointer;
+	text-transform: uppercase;
+	line-height: 50px;
+	height: 50px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+button:hover,
+.button:hover,
+input[type="submit"]:hover {
+	background-color: #231F20;
+}
+
+.logged-message {
+	text-align: center;
+}
+
+/* Form */
+form {
+	width: 100%;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+input[type="text"],
+textarea {
+	width: 100%;
+	border: 1px solid #dedede;
+}
+
+input[type="text"] {
+	height: 50px;
+	text-indent: 15px;
+}
