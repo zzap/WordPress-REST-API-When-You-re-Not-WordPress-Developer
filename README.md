@@ -5,3 +5,8 @@ Project files for my talk "WordPress REST API when you're not WordPress develope
 ## Branch endpoint-get
 
 This branch holds the code for getting posts from WordPress installation.
+
+## Branch authentication
+
+This branch holds the code for authentication of logging in and out using the [jso.js](https://github.com/andreassolberg/jso).
+
